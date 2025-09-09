@@ -1,0 +1,137 @@
+/* === Reset Styles === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* === Body Styling === */
+/* === Body Styling === */
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("bg.jpg") no-repeat center center/cover;
+}
+
+/* === Container === */
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 40px 30px;
+  border-radius: 20px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  width: 350px;
+}
+
+/* === Login Form === */
+.login-form h2 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* === Input Group === */
+.input-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #e0e0e0;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px 40px 12px 12px;
+  border: none;
+  border-radius: 12px;
+  outline: none;
+  font-size: 15px;
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+.input-group input::placeholder {
+  color: #ddd;
+}
+
+/* === Toggle Password Icon === */
+.toggle-password {
+  position: absolute;
+  right: 12px;
+  top: 35px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #fff;
+  opacity: 0.7;
+}
+
+.toggle-password:hover {
+  opacity: 1;
+}
+
+/* === Options (Remember + Forgot) === */
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.options label {
+  color: #eee;
+}
+
+.options a {
+  color: #ffdf6b;
+  text-decoration: none;
+}
+
+.options a:hover {
+  text-decoration: underline;
+}
+
+/* === Login Button === */
+button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  background: linear-gradient(135deg, #ff416c, #ff4b2b);
+  color: #fff;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #ff4b2b, #ff416c);
+}
+
+/* === Signup Text === */
+.signup-text {
+  margin-top: 20px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+}
+
+.signup-text a {
+  color: #ffdf6b;
+  text-decoration: none;
+}
+
+.signup-text a:hover {
+  text-decoration: underline;
+}
