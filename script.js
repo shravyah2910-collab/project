@@ -1,7 +1,6 @@
 // === Toggle Password Visibility ===
 function togglePassword() {
-  const passwordField = document.getElementById("password");
-  if (passwordField.type === "password") {
+  const passwordField = document.getElementById("password");  if (passwordField.type === "password") {
     passwordField.type = "text";
   } else {
     passwordField.type = "password";
@@ -21,5 +20,5 @@ document.getElementById("loginForm").addEventListener("submit", function (event)
   }
 
   // You can later connect this with backend authentication
-  alert("✅ Login successful! Welcome, " + username + " 🎉");
+  alert("Access Denied!!  " + username );
 });
